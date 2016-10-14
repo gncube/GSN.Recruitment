@@ -1,0 +1,39 @@
+
+ a:link, a, a:active, a:hover {
+ text-decoration: none !important;
+}
+
+p, li, .Normal {
+ font-size: 13px;
+}
+
+h1, h2 {
+font-weight: normal !important;
+}
+
+.twitter-pad {
+    width: 182px !important;
+}
+
+#mdMemberList > li {
+width: 271px !important;
+font-size: 13px !important;
+}
+
+.logo h1 {
+font-family: "FrutigerBold", Arial, sans-serif !important;
+font-size: 20px !important;
+font-weight: normal;
+color: #06c !important;
+margin: 25px 0 0 0;
+padding: 0;
+}
+
+#hee-twitter {
+background: transparent;
+color: #fff;
+height: 313.8px !important;
+max-height: 313.8px !important;
+overflow: hidden;
+text-align: left;
+}

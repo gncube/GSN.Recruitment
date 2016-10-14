@@ -1,0 +1,13 @@
+﻿body {
+}
+
+div.heeblock {
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #bf027a;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #0091c9;
+    background-color: #f6f6f6;
+    padding: 2% 2% 2% 2%;
+}

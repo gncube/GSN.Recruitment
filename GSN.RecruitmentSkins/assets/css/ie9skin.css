@@ -1,0 +1,19 @@
+
+ a:link, a, a:active, a:hover {
+ text-decoration: none !important;
+}
+
+
+h1, h2 {
+font-weight: normal !important;
+}
+
+.twitter-pad {
+    width: 182px !important;
+}
+
+#mdMemberList > li {
+width: 271px !important;
+font-size: 13px !important;
+}
+

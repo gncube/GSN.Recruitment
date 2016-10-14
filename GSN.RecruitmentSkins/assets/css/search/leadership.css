@@ -1,0 +1,74 @@
+﻿
+/*------------------------------------------------*/
+/* SEARCH */
+/*------------------------------------------------*/
+
+a:link > #search {
+    float: right;
+    width: 259px;
+    margin: 0;
+    padding: 0;
+}
+
+a.SearchButton:link,
+a.SearchButton:visited {
+    /*display: inline-block;*/
+    float: right;
+    height: 38px;
+    width: 38px;
+    margin: 3px 0 0 0;
+    padding: 0;
+    background: #c0037b url('../../img/search.png') no-repeat center center;
+    text-indent: -9999px;
+}
+
+.searchInputContainer {
+    /*display: none !important;*/
+    float: left !important;
+}
+
+#dnn_dnnSearch_txtSearch * {
+    color: #000;
+}
+
+a.SearchButton:hover {
+    background: url('../../img/search.png') no-repeat center center, #009bd5; /* Old browsers */
+    /*background: url('images/search.png') no-repeat center center, -moz-linear-gradient(top, rgba(45,45,45,1) 0%, rgba(86,86,86,1) 100%); /* FF3.6+ */
+    /*background: url('images/search.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(45,45,45,1)), color-stop(100%,rgba(86,86,86,1)));*/ /* Chrome,Safari4+ */
+    /*background: url('images/search.png') no-repeat center center, -webkit-linear-gradient(top, rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%);*/ /* Chrome10+,Safari5.1+ */
+    /*background: url('images/search.png') no-repeat center center, -o-linear-gradient(top, rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%);*/ /* Opera 11.10+ */
+    /*background: url('images/search.png') no-repeat center center, -ms-linear-gradient(top, rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%);*/ /* IE10+ */
+    /*background: url('images/search.png') no-repeat center center, linear-gradient(to bottom, rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%);*/ /* W3C */
+    */;
+}
+
+#dnn_dnnSearch_txtSearch {
+    display: block;
+    float: left;
+    width: 260px;
+    height: 38px;
+    padding: 0 10px 0 10px;
+    /* margin: 0 3px 0 10px; */
+    margin: 3px;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #c0037b;
+    color: #000;
+    line-height: 38px;
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+
+    #dnn_dnnSearch_txtSearch:active, #dnn_dnnSearch_txtSearch:focus {
+        background: #ccc;
+        box-shadow: inset 0px 3px 8px #999;
+    }
+
+    span.SearchButton { float: left;padding: 7px 10px 3px 10px;color:#c0037b;font-weight: lighter; }
+
+    span.SearchButton input { margin: 0 5px 0 0;}

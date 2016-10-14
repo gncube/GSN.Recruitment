@@ -1,0 +1,17 @@
+<ul class="nav navbar-nav">
+[*>NODE]
+</ul>
+[>NODE]
+	<li class="[?NODE]dropdown [/?][?SELECTED]active[/?]">
+	[?ENABLED]
+		<a target="[=TARGET]" href="[=URL]" [?NODE] data-hover="dropdown" data-delay="0" data-close-others="false" [/?]>[=TEXT] [?NODE]   <i class="icon-angle-down"></i> [/?]</a>
+	[?ELSE]
+		<a href="#" [?NODE] [/?]>[=TEXT] [?NODE]  <i class="icon-angle-right md-hidden"></i>[/?]</a>
+	[/?]
+	[?NODE]
+	    <ul class="dropdown-menu">
+	    [*>NODE]
+	    </ul>
+	[/?]
+	</li>
+[/>]

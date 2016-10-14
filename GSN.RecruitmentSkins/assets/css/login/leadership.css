@@ -1,0 +1,152 @@
+﻿/*------------------------------------------------*/
+/* LOGIN */
+/*------------------------------------------------*/
+#login {
+    float: left;
+}
+
+    #login .registerGroup,
+    #login .registerGroup *,
+    #login .loginGroup,
+    #login .loginGroup * {
+        display: block;
+    }
+
+    #login .registerGroup,
+    #login .loginGroup {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+
+        #login .registerGroup li:first-child:hover {
+            /*border-left: #222;*/
+        }
+
+        /* Register Group Styles */
+        #login .registerGroup li {
+            float: left;
+        }
+
+        #login .registerGroup .buttonGroup {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        #login .registerGroup a,
+        #login .loginGroup a {
+            background: #c0037b;
+            display: block;
+            position: relative;
+            height: 38px;
+            min-width: 12px;
+            padding: 10px 15px;
+            color: #fff;
+            vertical-align: middle;
+        }
+
+            #login .registerGroup a:hover,
+            #login .loginGroup a:hover {
+                background: #009bd5; /* Old browsers */
+                /*background: -moz-linear-gradient(top, rgba(45,45,45,1) 0%, rgba(86,86,86,1) 100%); /* FF3.6+ */
+                /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(45,45,45,1)), color-stop(100%,rgba(86,86,86,1))); /* Chrome,Safari4+ */
+                /*/*background: -webkit-linear-gradient(top, rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%); /* Chrome10+,Safari5.1+ */
+                /*background: -o-linear-gradient(top, rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%);*/ /* Opera 11.10+ */
+                /*background: -ms-linear-gradient(top, rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%);*/ /* IE10+ */
+                /*background: linear-gradient(to bottom, rgba(45,45,45,1) 0%,rgba(86,86,86,1) 100%);*/ /* W3C */
+                */*/*/
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d2d2d', endColorstr='#565656',GradientType=0 ); /* IE6-9 */
+                */ color: #ddd;
+                text-shadow: 0px -1px 0px #009bd5;
+                ;
+            }
+
+            #login .registerGroup a:active,
+            #login .loginGroup a:active {
+                color: #fff;
+                text-shadow: 0px -1px 0px #333333;
+            }
+
+            #login .registerGroup a:hover,
+            #login .loginGroup a:hover {
+                text-decoration: none;
+            }
+
+            #login .registerGroup a strong,
+            #login .loginGroup a strong {
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                overflow: hidden;
+                font-size: 13px;
+                text-indent: -9999px;
+            }
+
+    #login .userMessages a,
+    #login .userNotifications a {
+        background-color: #c0037b;
+    }
+
+    #login .userMessages strong {
+        height: 100%;
+        background: url('../img/icon_message.png') no-repeat center center;
+    }
+
+    #login .userNotifications {
+        border-right: 1px solid #CCC;
+    }
+
+        #login .userNotifications strong {
+            height: 100%;
+            background: url('../img/icon_notification.png') no-repeat center center;
+        }
+
+
+    #login .registerGroup a span {
+        display: inline-block;
+        position: absolute;
+        right: 2px;
+        top: -9px;
+        min-width: 7px;
+        margin-right: 3px;
+        background: rgb(59,150,182); /* Old browsers */
+        text-align: center;
+        font-size: 11px;
+        color: #fff;
+        text-shadow: 0px 1px 0px #333333;
+    }
+
+    #login .registerGroup .userProfileImg a {
+        min-width: 30px;
+        min-height: 38px;
+        padding: 0;
+        background: none;
+    }
+
+    #login .registerGroup a img {
+        height: 38px;
+        width: 38px;
+        background: #333;
+    }
+
+    /* Login Group Styles */
+    #login .loginGroup {
+        border-left: 1px solid #CCC;
+    }
+
+        #login .loginGroup a {
+            color: #fff;
+        }
+
+    /* Number of message next to the message icon*/
+    #login .userMessages a span,
+    #login .userNotifications a span {
+        display: inline-block;
+        margin-top: 9px;
+        margin-right: 0px;
+        background-color: transparent;
+        font-size: 10px;
+    }
+

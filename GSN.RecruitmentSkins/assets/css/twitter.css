@@ -1,0 +1,68 @@
+﻿/*.twitter-pad {
+    background:#c0037b url(../img/twitter-mask-182.png) no-repeat 0 -25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 382px;
+    width: 182px;   
+    overflow: hidden;
+    margin: 0 4px;
+}*/
+.twitter-pad h3 {
+    margin: 0;
+    padding: 10px 20px;
+}
+
+
+
+#hee-twitter {
+    background: transparent;
+    color: #fff;
+    /*width: 176px;*/
+    max-height: 325px;
+    overflow: hidden;
+    text-align: left;
+}
+
+    #hee-twitter ul {
+        margin: 0 10px;
+        padding: 0 10px;
+        list-style: none;
+    }
+
+    #hee-twitter p {
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+
+    #hee-twitter ul li {
+        list-style: none;
+        overflow: hidden;
+        border-top: #e28c05 2px solid;
+        margin: 0;
+        padding: 0;
+    }
+
+    #hee-twitter a:link span {
+        display: none !important;
+    }
+
+        #hee-twitter a:link span span {
+            display: none !important;
+        }
+
+.tweet a:link {
+    color: #e28c05;
+}
+
+.interact, .interact * {
+    display: none !important;
+}
+
+    .interact a:link {
+        display: none !important;
+    }
+
+.user img {
+    display: none;
+}

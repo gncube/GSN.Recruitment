@@ -1,0 +1,270 @@
+/* ======================================================= */
+/*                   Clear DNN Default                     */
+/* ======================================================= */
+/* SkinObject
+----------------------------------------------------------------------------- */
+.SkinObject
+{
+    font-weight: inherit;
+    font-size: inherit;
+    text-decoration: inherit;
+    color: inherit;
+    font-family: inherit;
+}
+
+
+a.SkinObject:link, a.SkinObject:visited, a.SkinObject:hover, a.SkinObject:active
+{
+    color: inherit;
+}
+
+
+/* Normal
+----------------------------------------------------------------------------- */
+.Normal, .NormalDisabled, .NormalDeleted
+{
+    font-size: inherit !important;
+    font-weight: inherit;
+    color: inherit;
+	line-height: inherit;
+}
+
+/* Headers
+----------------------------------------------------------------------------- */
+h1,	h2, h3, h4, h5, h6  
+{
+    font-size: inherit; 
+    line-height: inherit; 
+    letter-spacing:inherit; 
+    margin-top:inherit;
+    margin-bottom: inherit; 
+}
+
+/* List Styles
+----------------------------------------------------------------------------- */
+ul, ol, ul ul, ul ol, ol ol, ol ul, ol ol { 
+    margin-bottom: inherit; 
+    margin-left: inherit;
+    list-style: inherit;
+}
+
+li p { line-height: inherit; }
+
+/* Form styles
+----------------------------------------------------------------------------- */
+.use_form_styles .dnnFormItem input[type="text"],
+.use_form_styles .dnnFormItem input[type="password"],
+.use_form_styles .dnnFormItem input[type="email"],
+.use_form_styles .dnnFormItem input[type="tel"],
+.use_form_styles .dnnFormItem select,
+.use_form_styles .dnnFormItem textarea{
+    width: inherit;
+    max-width: inherit;
+    margin: inherit;
+    float: inherit;
+}
+
+	.use_form_styles .dnnFormItem button, .dnnFormItem input[type="button"], 
+	.use_form_styles .dnnFormItem input[type="reset"], 
+	.use_form_styles .dnnFormItem input[type="submit"],
+	.use_form_styles .dnnPrimaryAction, 
+	.use_form_styles .dnnSecondaryAction, 
+	.use_form_styles .dnnTertiaryAction,
+	.use_form_styles ul.dnnAdminTabNav li a,
+	.use_form_styles .dnnLogin .LoginTabGroup span { 
+		padding: inherit;
+		margin-bottom: inherit;
+		min-width: inherit;
+		/*-webkit-border-radius: inherit;*/
+		border-radius: inherit;
+	}
+	
+	
+/* Manage DNN6 z-index
+----------------------------------------------------------------------------- */
+.DnnModule
+{
+    z-index: inherit;
+}
+.dnnActionMenu
+{
+    z-index: 900;
+}
+
+/* Container's c_contentpane
+----------------------------------------------------------------------------- */
+.c_contentpane
+{
+    padding: 0px !important;
+}
+
+/* Default Links
+----------------------------------------------------------------------------- */
+a:link, a:visited, a:active
+{
+    color: inherit;
+}
+
+/* Default Tables
+----------------------------------------------------------------------------- */
+th, tfoot, thead
+{
+    color: inherit;
+}
+
+/* DNN5 Panel
+----------------------------------------------------------------------------- */
+.ControlPanel table, .ControlPanel table td
+{
+    vertical-align: top;
+}
+
+.dnnRibbonGroup .content
+{
+    height: 110px !important;
+}
+.dnnRibbonGroup .content a:hover
+{
+    margin-bottom: -1px !important;
+}
+
+/* DNN5 Admin
+----------------------------------------------------------------------------- */
+table.FileManager td,
+table.Settings td
+{
+    vertical-align:top;
+}
+
+td.FileManager_Header span
+{
+    display:inline!important;
+}
+
+/* DNN BackEnd */
+.DataGrid_Header, 
+.SubHead, 
+.Head,
+a.CommandButton,
+a.CommandButton:link, 
+a.CommandButton:hover, 
+a.CommandButton:visited,
+.SubSubHead,
+.WizardText,
+a.dnnFormHelp, 
+.dnnForm .dnnFormItem a.dnnFormHelp, 
+.dnnTooltip label a.dnnFormHelp,
+.dnnForm h2.dnnFormSectionHead a, 
+.dnnForm h2.dnnFormSectionHead a:visited  
+{
+    color: inherit;
+}
+
+.DataGrid_Container
+{
+    background-color:#fff;
+}
+    
+/* DNN6 Admin
+----------------------------------------------------------------------------- */
+
+/* DNN BackEnd */
+a.dnnFormHelp, 
+.dnnForm .dnnFormItem a.dnnFormHelp, 
+.dnnTooltip label a.dnnFormHelp,
+.dnnForm h2.dnnFormSectionHead a, 
+.dnnForm h2.dnnFormSectionHead a:visited
+{
+    color: inherit;
+}
+
+.dnnForm h2.dnnFormSectionHead a:hover
+{
+    background-color:transparent!important;
+}
+
+/* ======================================================= */
+/*                     DNN Controls                        */
+/* ======================================================= */
+/* DNN7 default admin panel
+----------------------------------------------------------------------------- */
+#dnnCPWrap .dnnadminmega 
+{
+    line-height: 18px;
+}
+
+#dnnCPWrap .RadComboBox_Default td.rcbArrowCellRight 
+{
+    vertical-align: middle;
+}
+
+#dnnCPWrap .dnnFormItem button, 
+#dnnCPWrap .dnnFormItem input[type="button"], 
+#dnnCPWrap .dnnFormItem input[type="reset"], 
+#dnnCPWrap .dnnFormItem input[type="submit"], 
+#dnnCPWrap .dnnPrimaryAction, 
+#dnnCPWrap .dnnSecondaryAction, 
+#dnnCPWrap .dnnTertiaryAction 
+{
+    padding: 6px;
+}
+
+#dnnCPWrap .dnnPrimaryAction, 
+#dnnCPWrap .dnnFormItem input[type="submit"], 
+#dnnCPWrap a.dnnPrimaryAction 
+{
+    color: #EFEFEF;
+}
+
+#dnnCPWrap .dnnFormItem input[type="text"], 
+#dnnCPWrap .dnnFormItem input[type="password"], 
+#dnnCPWrap .dnnFormItem input[type="email"], 
+#dnnCPWrap .dnnFormItem input[type="tel"], 
+#dnnCPWrap .dnnFormItem select, 
+#dnnCPWrap .dnnFormItem textarea 
+{
+    width: 45%;
+}
+
+#dnnCPWrap div#RibbonBar_SwitchSite_SitesLst + a 
+{
+    float: right;
+}
+
+/* DNN7 admin controls
+----------------------------------------------------------------------------- */
+.dnnForm td
+{
+    vertical-align: middle;
+}
+
+/* ======================================================= */
+/*                     Default DNN 6                       */
+/* ======================================================= */
+
+/* Login*/
+.registerGroup, .registerGroup *, .loginGroup, .loginGroup *
+{
+    display:inline;
+}
+.registerGroup a, .loginGroup a
+{
+    text-decoration:none;
+}
+.registerGroup a
+{
+    padding:0 5px;
+}
+/* Feedback*/
+.dnnFormItem input, .dnnFormItem .dnnFormInput, .dnnFormItem textarea,
+.dnnFormItem input[type="text"], .dnnFormItem select, .dnnFormItem textarea,
+.dnnFormItem input[type="email"], .dnnFormItem input[type="search"], .dnnFormItem input[type="password"]
+{
+    margin:0;
+}
+ul.dnnActions li
+{
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}

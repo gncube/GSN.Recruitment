@@ -1,0 +1,66 @@
+﻿/* Control Panel Fix for Bootstrap */
+.dnnDropDownList .selected-item {
+    padding: 8px 0;
+}
+
+
+#ControlBar  mark, #ControlBar  .mark {
+    padding: .2em;
+    background-color: #3d3d3d;
+}
+
+#ControlBar {
+    height: 53px !important;
+        background: #050505 url(../img/ControlBar_bg.jpg) repeat-x 0 0;
+}
+
+#ControlActionMenu > li > a, #ControlNav > li > a, #ControlEditPageMenu > li > a.controlBar_editPageInEditMode {
+    /*height: 43px !important;*/
+    height: 53px !important;
+}
+
+span.controlBar_editPageTxt {
+    height: 33px !important;
+}
+
+
+.subNav.advanced dl ul li {
+    min-width: 140px !important;
+    min-height: 55px;
+}
+
+@media (min-width: 1200px) {
+    .ControlContainer {
+        width: 1140px;
+    }
+}
+
+/* Module Actions*/
+form .dnn_mact > li {
+    padding: 0;
+    margin: 0 1px 0 0;
+}
+
+    form .dnn_mact > li > a, .dnn_mact > li > a {
+        padding: 10px;
+        margin: 0;
+    }
+
+.dnn_mact > li.actionMenuMove > ul li, ul#ControlBar_Module_ModulePosition li {
+    padding: 5px 10px 25px 10px;
+    line-height: 20px;
+}
+
+
+/* Empty Panes */
+.DNNEmptyPane {
+    width: 0;
+    margin: 0;
+    display: none;
+}
+
+
+/*Bootstrap Fixes*/
+a:visited.btn, a.btn {
+    color: #fff !important;
+}
